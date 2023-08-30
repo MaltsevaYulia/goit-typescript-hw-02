@@ -13,7 +13,8 @@ enum DayType {
 }
 
 
+
+
 function isWeekend(day:DayType):boolean {
-  if (day === DayType.Saturday || day === DayType.Sunday) return true
-  else return false
+  return day === DayType.Saturday || day === DayType.Sunday 
 }
